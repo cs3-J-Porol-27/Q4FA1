@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign Up Page </title>
+    </head>
+
+    <body>
+        <center>
+            <form id="signup">
+                <fieldset form="signup">
+                    <h2> Sign Up </h2>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="userName">Preferred Username:</label>
+                    <input type="text" id="userName" name="userName"><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"><br><br>
+
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword"><br><br>
+
+                    <label for="email">Email: </label>
+                    <input type = "email" id="email" name="email"><br><br>
+
+                    <label for="address">Address: </label>
+                    <input type = "adress" id="address" name="address"><br><br>
+
+                    <label for="interests">Interests: </label>
+                    <textarea id="tArea" name="interests" rows="4" cols="50"> </textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </fieldset>
+            </form>
+        </center>
+    </body>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+            body {
+                background-image: url("https://pbs.twimg.com/media/E6ZrH5dUYAAkQRR?format=jpg&name=4096x4096");
+                background-size: cover;
+                background-repeat: no-repeat; 
+                background-position: center;
+                color: white;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                font-family: "Poppins", sans-serif;
+            }
+
+            #signup {
+                padding: 10px;
+                border-radius: 10px;
+                backdrop-filter: blur(10px); 
+                background-color: rgba(0, 0, 0, 0.5); 
+                max-width: 500px; 
+            }
+    </style>
+</html>
